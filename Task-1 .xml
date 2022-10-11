@@ -40,6 +40,6 @@ Output:
           <Qty>01</Qty>
         </Article>
       </Purchases>
-      <Amount Currency="Sterling">0.150</Amount>
+      <Amount Currency="Sterling">0.30</Amount>
     </Statement>
 </SaleList>
