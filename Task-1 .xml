@@ -1,0 +1,45 @@
+Input:
+<SaleEnvelope>
+	<Header>
+		<SaleListCount>1</SaleListCount>
+		<TransformationType>compute</TransformationType>
+	</Header>
+	<SaleList>
+		<Invoice>
+			<Initial>K</Initial>
+			<Initial>A</Initial>
+			<Surname>Braithwaite</Surname>
+			<Item>
+				<Code>00</Code>
+				<Code>01</Code>
+				<Code>02</Code>
+				<Description>Twister</Description>
+				<Category>Games</Category>
+				<Price>00.30</Price>
+				<Quantity>01</Quantity>
+			</Item>
+			<Balance>00.50</Balance>
+			<Currency>Sterling</Currency>
+		</Invoice>
+	</SaleList>
+</SaleEnvelope>
+
+Output:
+<SaleList>
+	<TransformationType>compute</TransformationType>
+    <Statement Style="Full" Type="Monthly">
+      <Customer>
+        <Initials>KA</Initials>
+        <Name>Braithwaite</Name>
+        <Balance>00.50</Balance>
+      </Customer>
+      <Purchases>
+        <Article>
+          <Desc>Twister</Desc>
+          <Cost>0.30</Cost>
+          <Qty>01</Qty>
+        </Article>
+      </Purchases>
+      <Amount Currency="Sterling">0.150</Amount>
+    </Statement>
+</SaleList>
