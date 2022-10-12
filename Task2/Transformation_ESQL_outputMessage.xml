@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><SaleEnvelope>
+  <SaleList>
+    <Statement Style="Full" Type="Monthly">
+      <Customer>
+        <Initials>KA</Initials>
+        <Name>Braithwaite</Name>
+        <Balance>00.50</Balance>
+      </Customer>
+      <Purchases>
+        <Article>
+          <Desc>Twister</Desc>
+          <Cost>0.480</Cost>
+          <Qty>01</Qty>
+        </Article>
+        <Article>
+          <Desc>The Times Newspaper</Desc>
+          <Cost>0.320</Cost>
+          <Qty>01</Qty>
+        </Article>
+      </Purchases>
+      <Amount Currency="Sterling">0.320</Amount>
+    </Statement>
+    <Statement Style="Full" Type="Monthly">
+      <Customer>
+        <Initials>TJ</Initials>
+        <Name>Dunnwin</Name>
+        <Balance>81.84</Balance>
+      </Customer>
+      <Purchases>
+        <Article>
+          <Desc>The Origin of Species</Desc>
+          <Cost>35.744</Cost>
+          <Qty>02</Qty>
+        </Article>
+        <Article>
+          <Desc>Microscope</Desc>
+          <Cost>57.920</Cost>
+          <Qty>01</Qty>
+        </Article>
+      </Purchases>
+      <Amount Currency="Euros">57.920</Amount>
+    </Statement>
+  </SaleList>
+</SaleEnvelope>
